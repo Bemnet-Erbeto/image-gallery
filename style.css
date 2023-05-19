@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+   --bs-border-width: 3px;
+   --bs-border-color: #c92096;
+}
+
+header, main, footer {
+    max-width: 1440px;
+}
+
+h1 {
+    color: palevioletred;
+} 
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .gallery-image {
+    max-width: 20rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem ;
+    justify-content: center;
+}
